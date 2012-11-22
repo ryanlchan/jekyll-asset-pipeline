@@ -34,15 +34,15 @@ Add a "_assets" folder to your project and copy your JavaScript and CSS assets i
 In the HTML "head" section of your default layout (or other HTML page) of your Jekyll site, add one or both of the following [Liquid](http://liquidmarkup.org/) blocks and replace "foo" and "bar" with your asset files.  These blocks will be converted into HTML "link" and "script" tags that point to the bundled asset files.  The manifest must be a properly formatted YAML array and must include paths to your raw assets from the root folder of your project.
 
 ``` html
-{% raw %}{% css_asset_tag global %}
+{% css_asset_tag global %}
 - /_assets/foo.css
 - /_assets/bar.css
-{% endcss_asset_tag %}{% endraw %}
+{% endcss_asset_tag %}
 
-{% raw %}{% javascript_asset_tag global %}
+{% javascript_asset_tag global %}
 - /_assets/foo.js
 - /_assets/bar.js
-{% endjavascript_asset_tag %}{% endraw %}
+{% endjavascript_asset_tag %}
 ```
 
 > *The above example will create two bundles, a CSS bundle named "global-md5hash.css" and a JavaScript bundle named "global-md5hash.js" that include their respective assets per the manifest.*
