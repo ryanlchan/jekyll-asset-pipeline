@@ -152,7 +152,7 @@ That's it!  Your asset pipeline should have converted any CoffeeScript assets in
 
 ### SASS
 
-You probably get the gist of how compressors work, but I thought I'd add an example showing how to add a SASS converter as well.
+You probably get the gist of how converters work, but I thought I'd add an example showing how to add a SASS converter as well.
 
 ``` ruby
 module JekyllAssetPipeline
