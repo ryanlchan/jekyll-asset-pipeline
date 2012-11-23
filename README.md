@@ -1,6 +1,6 @@
 # Jekyll Asset Pipeline
 
-[Jekyll Asset Pipeline](https://github.com/matthodan/jekyll-asset-pipeline) is a powerful asset pipeline for Jekyll.  It collects, converts and minifies JavaScript and CSS assets.  Here are a sample of its features:
+[Jekyll Asset Pipeline](http://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html) is a powerful asset pipeline for Jekyll.  It collects, converts and minifies JavaScript and CSS assets.  Here are a sample of its features:
 
 - Declaritive dependency management
 - Asset preprocessing and compression
