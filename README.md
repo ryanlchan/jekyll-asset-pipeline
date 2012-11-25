@@ -2,8 +2,6 @@
 
 [Jekyll Asset Pipeline](http://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html) is a powerful asset pipeline that automatically collects, converts and compresses your site's JavaScript and CSS assets when you compile your Jekyll site.
 
-With Jekyll Asset Pipeline you can write assets in languages such as [CoffeeScript](http://coffeescript.org/), [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [Erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html) or any other language and compress assets with Yahoo's [YUI Compressor](http://developer.yahoo.com/yui/compressor/), Google's [Closure Compiler](https://developers.google.com/closure/compiler/), or any other compression library.
-
 Here are some of the features of Jekyll Asset Pipeline:
 
 - Declarative dependency management via asset manifests
