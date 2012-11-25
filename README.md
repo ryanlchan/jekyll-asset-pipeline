@@ -2,7 +2,7 @@
 
 [Jekyll Asset Pipeline](http://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html) is a powerful asset pipeline that automatically collects, converts and compresses your site's JavaScript and CSS assets when you compile your Jekyll site.
 
-Here are some of the features of Jekyll Asset Pipeline:
+Here are some of the features:
 
 - Declarative dependency management via asset manifests
 - Asset preprocessing/conversion (supports [CoffeeScript](http://coffeescript.org/), [Sass/Scss](http://sass-lang.com/), [Less](http://lesscss.org/), [Erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html), etc.)
