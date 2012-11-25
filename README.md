@@ -17,8 +17,8 @@ Here are some of the features of Jekyll Asset Pipeline:
 
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
-- [Asset Compression](#asset-compression)
 - [Asset Preprocessing](#asset-preprocessing)
+- [Asset Compression](#asset-compression)
 - [Templates](#templates)
 - [Configuration](#configuration)
 - [Contribute](#contribute)
