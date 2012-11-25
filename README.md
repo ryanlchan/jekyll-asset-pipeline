@@ -259,9 +259,7 @@ You can contribute to the Jekyll Asset Pipeline by submitting a pull request [vi
 Key areas that I have identified for future improvement include:
 
 - __Tests, tests, tests.__  I'm embarrassed to say that I didn't write a single test while building Jekyll Asset Pipeline.  This started as a hack for my blog and quickly grew into a library as I tweaked it to support my own needs.
-- __CDN support.__ Jekyll Asset Pipeline should support using a CDN to host your assets.  This feature is coming soon.
 - __Handle remote assets.__ Right now, Jekyll Asset Pipeline does not provide any way to include remote assets in bundles unless you save them locally before generating your site.  Moshen's [Jekyll Asset Bundler](https://github.com/moshen/jekyll-asset_bundler) allows you to include remote assets, which I thought was pretty interesting.  That said, I think it is generally better to keep remote assets separate so that they load asynchronously.
-- __Documentation.__ I wrote this readme to introduce people to Jekyll Asset Pipeline, but there should be better organized docs that can be more easily maintained.
 - __Successive preprocessing.__ Currently you can only preprocess a file once.  It would be better if you could run an asset through multiple preprocessors before it gets compressed and bundled.
 
 Feel free to message me on [Twitter](http://twitter.com/matthodan) or [Facebook](http://facebook.com/matthodan).
