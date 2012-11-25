@@ -7,8 +7,8 @@ With Jekyll Asset Pipeline you can write assets in languages such as [CoffeeScri
 Here are some of the features of Jekyll Asset Pipeline:
 
 - Declarative dependency management via asset manifests
-- Asset preprocessing/conversion (supports CoffeeScript, Sass, Less, ERB, etc.)
-- Asset compression (supports YUI Compressor, Closure Compiler, etc.)
+- Asset preprocessing/conversion (supports [CoffeeScript](http://coffeescript.org/), [Sass/Scss](http://sass-lang.com/), [Less](http://lesscss.org/), [Erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html), etc.)
+- Asset compression (supports [YUI Compressor](http://developer.yahoo.com/yui/compressor/), [Closure Compiler](https://developers.google.com/closure/compiler/), etc.)
 - Fingerprints bundled asset filenames with MD5 hashes for better browser caching
 - Automatic generation of HTML "link" and "script" tags that point to bundled assets
 - Integrates seamlessly into Jekyll's workflow, including auto site regeneration
