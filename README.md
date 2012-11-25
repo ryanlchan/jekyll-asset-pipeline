@@ -2,17 +2,9 @@
 
 [Jekyll Asset Pipeline](http://www.matthodan.com/2012/11/22/jekyll-asset-pipeline.html) is a powerful asset pipeline that automatically collects, converts and compresses/minifies your site's JavaScript and CSS assets when you compile your Jekyll site.
 
-## Features
-
-- Declarative dependency management via asset manifests
-- Asset preprocessing/conversion (supports [CoffeeScript](http://coffeescript.org/), [Sass/Scss](http://sass-lang.com/), [Less](http://lesscss.org/), [Erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html), etc.)
-- Asset compression (supports [YUI Compressor](http://developer.yahoo.com/yui/compressor/), [Closure Compiler](https://developers.google.com/closure/compiler/), etc.)
-- Fingerprints bundled asset filenames with MD5 hashes for better browser caching
-- Automatic generation of HTML "link" and "script" tags that point to bundled assets
-- Integrates seamlessly into Jekyll's workflow, including auto site regeneration
-
 ## Table of Contents
 
+- [Features](#features)
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
 - [Asset Preprocessing](#asset-preprocessing)
@@ -21,6 +13,15 @@
 - [Configuration](#configuration)
 - [Contribute](#contribute)
 - [Credits](#credits)
+
+## Features
+
+- Declarative dependency management via asset manifests
+- Asset preprocessing/conversion (supports [CoffeeScript](http://coffeescript.org/), [Sass/Scss](http://sass-lang.com/), [Less](http://lesscss.org/), [Erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html), etc.)
+- Asset compression (supports [YUI Compressor](http://developer.yahoo.com/yui/compressor/), [Closure Compiler](https://developers.google.com/closure/compiler/), etc.)
+- Fingerprints bundled asset filenames with MD5 hashes for better browser caching
+- Automatic generation of HTML "link" and "script" tags that point to bundled assets
+- Integrates seamlessly into Jekyll's workflow, including auto site regeneration
 
 ## How It Works
 
