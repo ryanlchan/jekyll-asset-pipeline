@@ -243,13 +243,11 @@ Key areas that I have identified for future improvement include:
 - __Documentation.__ I wrote this readme to introduce people to Jekyll Asset Pipeline, but there should be better organized docs that can be more easily maintained.
 - __Successive preprocessing.__ Currently you can only preprocess a file once.  It would be better if you could run an asset through multiple preprocessors before it gets compressed and bundled.
 
-Feel free to message me on [Twitter](http://twitter.com/matthodan) or [Facebook](http://facebook.com/matthodan) if you want to run an idea by me.
+Feel free to message me on [Twitter](http://twitter.com/matthodan) or [Facebook](http://facebook.com/matthodan).
 
 ## Credits
 
 As I was building Jekyll Asset Pipeline, I came across a number of tools that I was able to draw inspiration and best practices from, but one stood out in particular...  I have to give credit to [Moshen](https://github.com/moshen/) for creating the [Jekyll Asset Bundler](https://github.com/moshen/jekyll-asset_bundler).
-
-Jekyll Asset Bundler *almost* covered all of my needs when I set out to find an asset pipeline solution for my blog.  The big missing features in my opinion were support for CoffeeScript and Sass.  It also lacked a way to easily add new preprocessors that would have let me easily add support for these languages.
 
 I also have to give credit to [Mojombo](https://github.com/mojombo) for creating [Jekyll](https://github.com/mojombo/jekyll) in the first place.
 
