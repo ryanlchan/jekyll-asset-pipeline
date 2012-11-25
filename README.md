@@ -91,17 +91,17 @@ In the following example, we will add a preprocessor that converts CoffeeScript 
 
   ``` ruby
   module JekyllAssetPipeline
-    class CoffeeScriptConverter < JekyllAssetPipeline::Converter
-      require 'coffee-script'
-      
-      def self.filetype
-        '.coffee'
+      class CoffeeScriptConverter < JekyllAssetPipeline::Converter
+        require 'coffee-script'
+        
+        def self.filetype
+          '.coffee'
+        end
+        
+        def convert
+          return CoffeeScript.compile(@content)
+        end
       end
-      
-      def convert
-        return CoffeeScript.compile(@content)
-      end
-    end
   end
   ```
 
