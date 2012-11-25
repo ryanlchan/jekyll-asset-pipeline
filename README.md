@@ -143,6 +143,8 @@ Asset compression allows us to decrease the size of our assets and increase the 
 
 In the following example, we will add a compressor that uses Yahoo's YUI Compressor to compress our CSS and JavaScript assets.
 
+### Yahoo's YUI Compressor
+
 1. In the "jekyll\_asset\_pipeline.rb" file that we created in the "Getting Started" section, add the following code to the end of the file (i.e. after the "require" statement).
 
     ``` ruby
@@ -186,6 +188,25 @@ In the following example, we will add a compressor that uses Yahoo's YUI Compres
 3. Run the `jekyll` command to compile your site.
 
 That is it!  Your asset pipeline has compressed your CSS and JavaScript assets.  You can verify that this is the case by looking at the contents of the bundles generated in the "\_site/assets" folder of your project.
+
+### Google's Closure Compiler
+
+You probably get the gist of how compressors work, but I thought I'd add an example of a Google Closure Compiler compressor for quick reference.
+
+``` ruby
+class JavaScriptCompressor < JekyllAssetPipeline::Compressor
+  require 'closure-compiler'
+
+  def self.filetype
+    '.js'
+  end
+
+  def compress
+    return Closure::Compiler.new.compile(@content)
+  end
+end
+```
+> *Don't forget to install the "closure-compiler" gem before you run the `jekyll` command since the above compressor requires the "closure-compiler" library as a dependency.*
 
 ## Templates
 
