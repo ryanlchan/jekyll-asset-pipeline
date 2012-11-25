@@ -254,7 +254,7 @@ asset_pipeline:
 
 ## Contribute
 
-You can contribute to the Jekyll Asset Pipeline by submitting a pull request [via GitHub](https://github.com/matthodan/jekyll-asset-pipeline).  I have identified the following areas for improvement include:
+You can contribute to the Jekyll Asset Pipeline by submitting a pull request [via GitHub](https://github.com/matthodan/jekyll-asset-pipeline).  I have identified the following areas for improvement:
 
 - __Tests, tests, tests.__  I'm embarrassed to say that I didn't write a single test while building Jekyll Asset Pipeline.  This started as a hack for my blog and quickly grew into a library as I tweaked it to support my own needs.
 - __Handle remote assets.__ Right now, Jekyll Asset Pipeline does not provide any way to include remote assets in bundles unless you save them locally before generating your site.  Moshen's [Jekyll Asset Bundler](https://github.com/moshen/jekyll-asset_bundler) allows you to include remote assets, which I thought was pretty interesting.  That said, I think it is generally better to keep remote assets separate so that they load asynchronously.
